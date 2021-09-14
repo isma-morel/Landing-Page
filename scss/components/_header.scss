@@ -1,0 +1,18 @@
+/*HEADER DESKTOP*/
+
+header .container-nav1 {
+    .nav {
+        padding-right: 3rem;
+        padding-top: 2rem;
+        li a {
+            font-family: $font-family;
+            font-size: nth($font-size , 1 );
+            color: nth($colors , 2 );
+            transition: all .5s ease-in-out;
+            font-weight: nth($font-weight , 1 );
+            &:hover {
+                color: nth($colors , 6 );
+            }
+        }
+    }
+}

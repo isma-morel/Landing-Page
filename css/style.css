@@ -1,4 +1,60 @@
-@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap%27");
-@import url("https://fonts.googleapis.com/css2?family=Oswald&family=Roboto:wght@300;400&display=swap%27");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap");
+* {
+  /* 16px * 62.5 / 100 = 10px = 1rem*/
+  font-size: 62.5%;
+  margin: 0;
+  padding: 0;
+  text-decoration: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+  list-style: none;
+}
+
+/* Colors */
+/*6*/
+/*11*/
+/*VARIABLES*/
+.h1-pos h2, .h1-pos h1 {
+  font-family: "Poppins", sans-serif;
+  color: #efeae5;
+  text-shadow: 1px 3px 2px rgba(0, 0, 0, 0.6);
+}
+
+/*HEADER DESKTOP*/
+header .container-nav1 .nav {
+  padding-right: 3rem;
+  padding-top: 2rem;
+}
+header .container-nav1 .nav li a {
+  font-family: "Poppins", sans-serif;
+  font-size: 2.5rem;
+  color: #efeae5;
+  transition: all 0.5s ease-in-out;
+  font-weight: 300;
+}
+header .container-nav1 .nav li a:hover {
+  color: #545454;
+}
+
+/*POSITION H1*/
+.h1-pos h2, .h1-pos h1 {
+  font-family: "Poppins", sans-serif;
+  color: #efeae5;
+  text-shadow: 1px 3px 2px rgba(0, 0, 0, 0.6);
+}
+
+.h1-pos {
+  position: absolute;
+  top: 50vh;
+  left: 25vw;
+}
+.h1-pos h1 {
+  font-weight: 700;
+  font-size: 4.8rem;
+}
+.h1-pos h2 {
+  font-weight: 300;
+  font-size: 2.2rem;
+}
 
 /*# sourceMappingURL=style.css.map */

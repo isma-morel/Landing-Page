@@ -1,0 +1,18 @@
+/*POSITION H1*/
+@import '../base/extend';
+
+.h1-pos {
+    h1 {
+        font-weight: nth($font-weight , 3 );
+        font-size: nth($font-size , 2 );
+        @extend %h1h2;
+    }
+    h2 {
+        font-weight: nth($font-weight , 1 );
+        font-size: nth($font-size , 3 );
+        @extend %h1h2;
+    }
+    position: absolute;
+    top: 50vh;
+    left: 25vw;
+}

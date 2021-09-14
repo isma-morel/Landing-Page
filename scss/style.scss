@@ -1,2 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap%27');
-@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Roboto:wght@300;400&display=swap%27');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
+@import 'base/reset';
+@import 'base/list';
+@import 'base/var';
+@import 'base/extend';
+@import 'components/header';
+@import 'components/section1';
+@import 'components/section2';
+@import 'components/section3';
+@import 'components/section4';
+@import 'components/section5';
+@import 'components/footer';
