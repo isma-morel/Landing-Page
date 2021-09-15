@@ -1,0 +1,41 @@
+/*SECCION 3*/
+
+.seccion3{
+    height: 100vh;
+    width: auto;
+    background-color: nth($colors , 2 );
+    .container-tittle {
+        padding-top: 6rem;
+        .tittle-servicios {
+            h2 {
+                @extend %tittles;
+            }
+        }
+        p {
+            @extend %p;
+        }
+    }
+    .cards-container {
+        .cards {
+            @extend %cards;
+            transition: all .5s ease-in-out;
+            &:hover {
+                transform: scale(1.1);
+            }
+            a {
+                text-decoration: none;
+                text-transform: uppercase;
+                color: nth($colors , 5 );
+                .img-card {
+                    width: 80%;
+                    height: auto;
+                    margin-bottom: 2rem;
+                }
+                h3 {
+                    font-weight: nth($font-weight , 1 );
+                    font-size: nth($font-size , 5 );
+                }
+            }
+        }
+    }
+}

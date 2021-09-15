@@ -13,10 +13,16 @@
 </head>
 <body>
     <header>
-        <nav class="container-nav1">
+        <nav class="container-nav1 container-fluid">
             <ul class="nav justify-content-end fixed-top">
                 <li class="nav-item">
-                    <a class="nav-link" href="#seccion1">Inicio</a>
+                    <a class="nav-link" href="#inicio">Inicio</a>
+                    <ul>
+                        <li><a href="#conocenos">Conócenos</a></li>
+                        <li><a href="#paquetes">Paquetes</a></li>
+                        <li><a href="#feedback">Feedback</a></li>
+                        <li><a href="#cita">Reserva una cita</a></li>
+                    </ul>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Servicios</a>
@@ -31,7 +37,7 @@
         </nav>
     </header>
     <main>
-        <section class="seccion1">
+        <section id="inicio" class="seccion1">
             <div id="carouselWithIndicators" class="carousel slide" data-bs-ride="carousel">
                 <ol class="carousel-indicators">
                     <li data-bs-target="#carouselWithIndicators" data-bs-slide-to="0" class="active" aria-current="true"></li>
@@ -63,7 +69,7 @@
                 <h2>Mímate y disfruta</h2>
             </div>
         </section>
-        <section class="seccion2 container-fluid">
+        <section id="conocenos" class="seccion2 container-fluid">
             <div class="row align-items-center">
                 <div class="img-container col-lg-6 d-flex justify-content-center align-items-center">
                     <img src="images/aboutus/about-us.png" alt="" class="img-fluid">
@@ -92,66 +98,66 @@
             </div>
             
         </section>
-        <section class="seccion3">
-            <div class="">
+        <section id="paquetes" class="seccion3 container-fluid text-center">
+            <div class="container-tittle">
                 <div class="tittle-servicios">
                     <h2>Nuestros paquetes</h2>
                 </div>
                 <p>Ofrecemos una variedad de servicios para garantizar tu bienestar.</p>
             </div>
             <div class="cards-container row container-fluid">
-                <div class="cards card-1 col-lg-4 col-md-12">
-                    <div>
-                        <img src="images/Package/Us-packages1.png" alt="">
-                    </div>
-                    <h3>Nuestros paquetes de masajes</h3>
+                <div class="cards col-lg-4 col-md-12">
+                    <a href="">
+                        <img src="images/Package/Us-packages1.png" alt="" class="img-card">
+                        <h3>Nuestros paquetes de masajes</h3>
+                    </a>
                 </div>
-                <div class="cards card-2 col-lg-4 col-md-12">
-                    <div>
-                        <img src="images/Package/Us-packages2.png" alt="">
-                    </div>
-                    <h3>Nuestros paquetes faciales</h3>
+                <div class="cards col-lg-4 col-md-12">
+                    <a href="">
+                        <img src="images/Package/Us-packages2.png" alt="" class="img-card">
+                        <h3>Nuestros paquetes faciales</h3>
+                    </a>
                 </div>
-                <div class="cards card-3 col-lg-4 col-md-12">
-                    <div>
-                        <img src="images/Package/Us-packages3.png" alt="">
-                    </div>
-                    <h3>Otros servicios</h3>
+                <div class="cards col-lg-4 col-md-12">
+                    <a href="">
+                        <img src="images/Package/Us-packages3.png" alt="" class="img-card">
+                        <h3>Otros servicios</h3>
+                    </a>
                 </div>
             </div>
         </section>
-        <section class="seccion4">
-            <div>
+        <section id="feedback" class="seccion4 container-fluid">
+            <div class="text-center">
                 <h2>Lo que dicen nuestros clientes</h2>
             </div>
-            <div class="cards-container row container-fluid">
-                <div class="cards card-1 col-lg-4 col-md-12">
+            <div class="cards-container row gx-2 text-center container-fluid">
+                <div class="cards2 card-1 col-lg-4 col-md-12">
                     <h3>Alberto Conellito</h3>
                     <h4>REPRESENTANTE DE MARKETING</h4>
-                    <div>
-                        <img src="images/Feedback/Feedback-1.png" alt="">
+                    <div class="img-circle">
+                        <img src="images/Feedback/Feedback-1.png" alt="" class="img-feedback img-fluid">
                     </div>
                     <p>
                         Los testimonios son citas cortas de personas a las que les encanta tu marca. 
                         Es una excelente forma de convencer a los clientes para que prueben tus servicios.
                     </p>
                 </div>
-                <div class="cards card-2 col-lg-4 col-md-12">
+                <div class="cards2 card-1 col-lg-4 col-md-12">
                     <h3>Fátima Luarca</h3>
                     <h4>ACTRIZ</h4>
-                    <div>
-                        <img src="images/Feedback/Feedback-2.png" alt="">
+                    <div class="img-circle">
+                        <img src="images/Feedback/Feedback-2.png" alt="" class="img-feedback img-fluid">
                     </div>
                     <p>
                         Los testimonios son citas cortas de personas a las que les encanta tu marca. 
                         Es una excelente forma de convencer a los clientes para que prueben tus servicios.
                     </p>
                 </div>
-                <div class="cards card-3 col-lg-4 col-md-12">
+                <div class="cards2 card-1 col-lg-4 col-md-12">
                     <h3>Patricia Vatio</h3>
                     <h4>ESTILISTA</h4>
-                    <div>
-                        <img src="images/Feedback/Feedback-3.png" alt="">
+                    <div class="img-circle">
+                        <img src="images/Feedback/Feedback-3.png" alt="" class="img-feedback img-fluid">
                     </div>
                     <p>
                         Los testimonios son citas cortas de personas a las que les encanta tu marca. 
@@ -160,7 +166,7 @@
                 </div>
             </div>
         </section>
-        <section class="seccion5">
+        <section id="cita" class="seccion5 container-fluid">
             <div class="row">
                 <div class="col-6">
                     <h2>Reserva una cita</h2>

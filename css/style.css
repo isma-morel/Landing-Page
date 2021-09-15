@@ -15,19 +15,32 @@
 /*VARIABLES*/
 .h1-pos h2, .h1-pos h1 {
   font-family: "Poppins", sans-serif;
-  color: #efeae5;
+  color: #ffffff;
   text-shadow: 1px 3px 2px rgba(0, 0, 0, 0.6);
 }
 
-.seccion2 .text-wrap .tittle-about h2 {
+.seccion4 div h2, .seccion3 .container-tittle .tittle-servicios h2, .seccion2 .text-wrap .tittle-about h2 {
   font-family: "Poppins", sans-serif;
   color: #2a435b;
   font-weight: 500;
+  font-size: 4.1rem;
 }
 
-.seccion2 .text-wrap .text p {
+.seccion4 .cards-container .cards2 p, .seccion3 .container-tittle p, .seccion2 .text-wrap .text p {
   font-family: "Poppins", sans-serif;
   color: #2a435b;
+  font-size: 1.5rem;
+}
+
+.seccion4 .cards-container .cards2, .seccion3 .cards-container .cards {
+  height: 100%;
+  padding: 0.9rem;
+  margin-top: 5rem;
+}
+
+.seccion4 .cards-container .cards2 h4, .seccion4 .cards-container .cards2 h3 {
+  color: #2a435b;
+  font-family: "Poppins", sans-serif;
 }
 
 /*HEADER DESKTOP*/
@@ -35,15 +48,24 @@ header .container-nav1 .nav {
   padding-right: 3rem;
   padding-top: 2rem;
 }
+header .container-nav1 .nav li:hover > ul {
+  display: block;
+}
 header .container-nav1 .nav li a {
   font-family: "Poppins", sans-serif;
   font-size: 2.5rem;
-  color: #efeae5;
+  color: #ffffff;
   transition: all 0.5s ease-in-out;
   font-weight: 300;
+  text-decoration: none;
 }
 header .container-nav1 .nav li a:hover {
   color: #545454;
+}
+header .container-nav1 .nav li ul {
+  display: none;
+  position: absolute;
+  padding-left: 1rem;
 }
 
 /*POSITION H1*/
@@ -64,7 +86,7 @@ header .container-nav1 .nav li a:hover {
 /*SECCION 2 SOBRE NOSOTROS*/
 .seccion2 {
   height: 100vh;
-  background-color: #efeae5;
+  background-color: #f5e8c7;
 }
 .seccion2 .img-container {
   background-color: #90bdeb;
@@ -79,18 +101,80 @@ header .container-nav1 .nav li a:hover {
   border-bottom: 0.3rem solid #2a435b;
   padding-bottom: 3rem;
 }
-.seccion2 .text-wrap .tittle-about h2 {
-  font-size: 4.1rem;
-}
 .seccion2 .text-wrap .text {
   padding-top: 3rem;
 }
 .seccion2 .text-wrap .text p {
-  font-size: 1.5rem;
   overflow-wrap: initial;
   margin-bottom: 0;
   text-justify: initial;
   padding-left: 1rem;
+}
+
+/*SECCION 3*/
+.seccion3 {
+  height: 100vh;
+  width: auto;
+  background-color: #f5e8c7;
+}
+.seccion3 .container-tittle {
+  padding-top: 6rem;
+}
+.seccion3 .cards-container .cards {
+  transition: all 0.5s ease-in-out;
+}
+.seccion3 .cards-container .cards:hover {
+  transform: scale(1.1);
+}
+.seccion3 .cards-container .cards a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #2a435b;
+}
+.seccion3 .cards-container .cards a .img-card {
+  width: 80%;
+  height: auto;
+  margin-bottom: 2rem;
+}
+.seccion3 .cards-container .cards a h3 {
+  font-weight: 300;
+  font-size: 1.5rem;
+}
+
+/*feedback*/
+.seccion4 {
+  background-color: #90bdeb;
+  height: 100vh;
+  width: auto;
+}
+.seccion4 div h2 {
+  color: #ffffff;
+  padding-top: 6rem;
+}
+.seccion4 .cards-container .card-1 {
+  background-color: #d8e6f4;
+  margin-left: auto;
+  margin-right: auto;
+}
+.seccion4 .cards-container .cards2 {
+  height: 40rem;
+  width: 35rem;
+}
+.seccion4 .cards-container .cards2 .img-circle .img-feedback {
+  border-radius: 50%;
+  width: 50%;
+  height: auto;
+}
+.seccion4 .cards-container .cards2 h3 {
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+.seccion4 .cards-container .cards2 h4 {
+  font-size: 2rem;
+  font-weight: 300;
+}
+.seccion4 .cards-container .cards2 p {
+  padding-top: 3rem;
 }
 
 /*# sourceMappingURL=style.css.map */

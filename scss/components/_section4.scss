@@ -1,0 +1,49 @@
+/*feedback*/
+
+.seccion4 {
+    background-color: nth($colors , 3 );
+    height: 100vh;
+    width: auto;
+    div {
+        h2 {
+            @extend %tittles;
+            color: nth($colors , 1 );
+            padding-top: 6rem;
+        }
+    }
+    .cards-container {
+        .card-1 {
+            background-color: nth($colors , 4 );
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .cards2 {
+            @extend %cards;
+            height: 40rem;
+            width: 35rem;
+            .img-circle {
+                .img-feedback {
+                    border-radius: 50%;
+                    width: 50%;
+                    height: auto;
+                }
+                
+            }
+            h3 {
+                @extend %colorfamily;
+                font-size: nth($font-size , 1 );
+                font-weight: nth($font-weight, 2 );
+            }
+            h4 {
+                @extend %colorfamily;
+                font-size: nth($font-size , 7 );
+                font-weight: nth($font-weight , 1 );
+            }
+            p {
+                @extend %p;
+                padding-top: 3rem;
+            }
+        }
+    }
+}
+

@@ -16,14 +16,12 @@
             padding-bottom: 3rem;
             h2 {
                 @extend %tittles;
-                font-size: nth($font-size , 4 );
             }
         }
         .text {
             padding-top: 3rem;
             p {
                 @extend %p;
-                font-size: nth($font-size , 5 );
                 overflow-wrap: initial;
                 margin-bottom: 0;
                 text-justify: initial;
