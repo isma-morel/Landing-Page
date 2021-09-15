@@ -4,3 +4,14 @@
     color: nth($colors , 2 );
     text-shadow: 1px 3px 2px rgba(0,0,0,0.6);
 }
+
+%tittles {
+    font-family: $font-family;
+    color: nth($colors , 5 );
+    font-weight: nth($font-weight , 2 );
+}
+
+%p {
+    font-family: $font-family;
+    color: nth($colors , 5 );
+}

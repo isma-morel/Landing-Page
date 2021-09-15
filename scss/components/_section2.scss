@@ -1,0 +1,35 @@
+/*SECCION 2 SOBRE NOSOTROS*/
+
+.seccion2 {
+    height: 100vh;
+    background-color: nth($colors , 2 );
+    .img-container {
+        background-color: nth($colors , 3 );
+        height: 100vh;
+    }
+    .text-wrap {
+        justify-content: center;
+        align-items: center;
+        .tittle-about {
+            width: 50%;
+            border-bottom: .3rem solid nth($colors , 5 );
+            padding-bottom: 3rem;
+            h2 {
+                @extend %tittles;
+                font-size: nth($font-size , 4 );
+            }
+        }
+        .text {
+            padding-top: 3rem;
+            p {
+                @extend %p;
+                font-size: nth($font-size , 5 );
+                overflow-wrap: initial;
+                margin-bottom: 0;
+                text-justify: initial;
+                padding-left: 1rem;
+            }
+        }
+        
+    }
+}

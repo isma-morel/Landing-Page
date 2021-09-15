@@ -6,7 +6,6 @@
   padding: 0;
   text-decoration: 0;
   box-sizing: border-box;
-  overflow: hidden;
   list-style: none;
 }
 
@@ -18,6 +17,17 @@
   font-family: "Poppins", sans-serif;
   color: #efeae5;
   text-shadow: 1px 3px 2px rgba(0, 0, 0, 0.6);
+}
+
+.seccion2 .text-wrap .tittle-about h2 {
+  font-family: "Poppins", sans-serif;
+  color: #2a435b;
+  font-weight: 500;
+}
+
+.seccion2 .text-wrap .text p {
+  font-family: "Poppins", sans-serif;
+  color: #2a435b;
 }
 
 /*HEADER DESKTOP*/
@@ -37,15 +47,9 @@ header .container-nav1 .nav li a:hover {
 }
 
 /*POSITION H1*/
-.h1-pos h2, .h1-pos h1 {
-  font-family: "Poppins", sans-serif;
-  color: #efeae5;
-  text-shadow: 1px 3px 2px rgba(0, 0, 0, 0.6);
-}
-
 .h1-pos {
   position: absolute;
-  top: 50vh;
+  top: 40vh;
   left: 25vw;
 }
 .h1-pos h1 {
@@ -55,6 +59,38 @@ header .container-nav1 .nav li a:hover {
 .h1-pos h2 {
   font-weight: 300;
   font-size: 2.2rem;
+}
+
+/*SECCION 2 SOBRE NOSOTROS*/
+.seccion2 {
+  height: 100vh;
+  background-color: #efeae5;
+}
+.seccion2 .img-container {
+  background-color: #90bdeb;
+  height: 100vh;
+}
+.seccion2 .text-wrap {
+  justify-content: center;
+  align-items: center;
+}
+.seccion2 .text-wrap .tittle-about {
+  width: 50%;
+  border-bottom: 0.3rem solid #2a435b;
+  padding-bottom: 3rem;
+}
+.seccion2 .text-wrap .tittle-about h2 {
+  font-size: 4.1rem;
+}
+.seccion2 .text-wrap .text {
+  padding-top: 3rem;
+}
+.seccion2 .text-wrap .text p {
+  font-size: 1.5rem;
+  overflow-wrap: initial;
+  margin-bottom: 0;
+  text-justify: initial;
+  padding-left: 1rem;
 }
 
 /*# sourceMappingURL=style.css.map */
